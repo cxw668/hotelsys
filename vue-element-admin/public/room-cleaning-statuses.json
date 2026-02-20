@@ -1,0 +1,64 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 10,
+    "items": [
+      {
+        "id": 1,
+        "roomNum": "101",
+        "status": "已净",
+        "cleaner": "阿姨A",
+        "startTime": "2023-10-26T09:00:00Z",
+        "endTime": "2023-10-26T09:45:00Z",
+        "inspector": "Bob Smith",
+        "result": "合格",
+        "remark": null
+      },
+      {
+        "id": 2,
+        "roomNum": "102",
+        "status": "待扫",
+        "cleaner": null,
+        "startTime": null,
+        "endTime": null,
+        "inspector": null,
+        "result": null,
+        "remark": "客人刚退房"
+      },
+      {
+        "id": 3,
+        "roomNum": "201",
+        "status": "打扫中",
+        "cleaner": "阿姨B",
+        "startTime": "2023-10-26T10:15:00Z",
+        "endTime": null,
+        "inspector": null,
+        "result": null,
+        "remark": null
+      },
+      {
+        "id": 4,
+        "roomNum": "202",
+        "status": "检查中",
+        "cleaner": "阿姨B",
+        "startTime": "2023-10-26T09:00:00Z",
+        "endTime": "2023-10-26T10:00:00Z",
+        "inspector": "Bob Smith",
+        "result": null,
+        "remark": "重点检查卫生间"
+      },
+      {
+        "id": 5,
+        "roomNum": "301",
+        "status": "已净",
+        "cleaner": "阿姨C",
+        "startTime": "2023-10-26T08:30:00Z",
+        "endTime": "2023-10-26T09:10:00Z",
+        "inspector": "Bob Smith",
+        "result": "合格",
+        "remark": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 6,
+    "items": [
+      {
+        "id": 1,
+        "name": "平日标准价",
+        "roomType": "单人间",
+        "basePrice": 280.00,
+        "weekendMultiplier": 1.2,
+        "holidayMultiplier": 1.5,
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "priority": 1,
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "name": "平日标准价",
+        "roomType": "双人间",
+        "basePrice": 380.00,
+        "weekendMultiplier": 1.2,
+        "holidayMultiplier": 1.5,
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "priority": 1,
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "name": "国庆特惠",
+        "roomType": "豪华房",
+        "basePrice": 580.00,
+        "weekendMultiplier": 1.0,
+        "holidayMultiplier": 1.2,
+        "startDate": "2023-10-01",
+        "endDate": "2023-10-07",
+        "priority": 10,
+        "status": "expired"
+      },
+      {
+        "id": 4,
+        "name": "淡季促销",
+        "roomType": "套房",
+        "basePrice": 780.00,
+        "weekendMultiplier": 1.1,
+        "holidayMultiplier": 1.1,
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-30",
+        "priority": 5,
+        "status": "pending"
+      },
+      {
+        "id": 5,
+        "name": "协议价-A公司",
+        "roomType": "单人间",
+        "basePrice": 220.00,
+        "weekendMultiplier": 1.0,
+        "holidayMultiplier": 1.0,
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "priority": 8,
+        "status": "active"
+      },
+      {
+        "id": 6,
+        "name": "会员专享",
+        "roomType": "双人间",
+        "basePrice": 350.00,
+        "weekendMultiplier": 1.1,
+        "holidayMultiplier": 1.3,
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "priority": 2,
+        "status": "active"
+      }
+    ]
+  }
+}

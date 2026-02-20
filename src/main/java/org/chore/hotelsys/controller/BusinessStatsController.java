@@ -19,21 +19,55 @@ public class BusinessStatsController {
     @Autowired
     private BusinessStatsService businessStatsService;
 
-    /**
-     * 查询指定日期经营数据
-     */
+    @GetMapping
+    public R<java.util.List<BusinessStats>> list(@RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
+        if (date == null) {
+            return R.success("查询成功", businessStatsService.list());
+        }
+        return R.success("查询成功", businessStatsService.listByDate(date));
+    }
+
+    @GetMapping("/{id}")
+    public R<BusinessStats> getById(@PathVariable Long id) {
+        return R.success("查询成功", businessStatsService.getById(id));
+    }
+
+    @PostMapping
+    public R<Void> create(@RequestBody BusinessStats stats) {
+        if (stats.getDate() == null) {
+            return R.error("统计日期不能为空");
+        }
+        boolean success = businessStatsService.save(stats);
+        return success ? R.success("数据保存成功", null) : R.error("数据保存失败");
+    }
+
+    @PatchMapping("/{id}")
+    public R<Void> update(@PathVariable Long id, @RequestBody BusinessStats stats) {
+        stats.setId(id);
+        boolean success = businessStatsService.updateById(stats);
+        return success ? R.success("更新成功", null) : R.error("更新失败");
+    }
+
+    @DeleteMapping("/{id}")
+    public R<Void> delete(@PathVariable Long id) {
+        boolean success = businessStatsService.removeById(id);
+        return success ? R.success("删除成功", null) : R.error("删除失败");
+    }
+
+    @GetMapping("/recent-7-days")
+    public R<java.util.List<BusinessStats>> recent7Days() {
+        return R.success("查询成功", businessStatsService.listRecentDays(7));
+    }
+
     @GetMapping("/query-by-date")
-    public R<BusinessStats> queryByDate(@RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
+    public R<BusinessStats> legacyQueryByDate(@RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date) {
         BusinessStats stats = businessStatsService.getByDate(date);
         return R.success("查询成功", stats);
     }
 
-    /**
-     * 新增/更新经营数据
-     */
     @PostMapping("/save-or-update")
-    public R<Void> saveOrUpdate(@RequestBody BusinessStats stats) {
-        if (stats.getStatDate() == null) {
+    public R<Void> legacySaveOrUpdate(@RequestBody BusinessStats stats) {
+        if (stats.getDate() == null) {
             return R.error("统计日期不能为空");
         }
         boolean success = businessStatsService.saveOrUpdateByDate(stats);

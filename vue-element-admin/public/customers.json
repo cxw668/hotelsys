@@ -1,0 +1,84 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 50,
+    "items": [
+      {
+        "id": 501,
+        "name": "张三",
+        "gender": "男",
+        "idCard": "110101199001011234",
+        "phone": "13800138000",
+        "email": "zhangsan@example.com",
+        "level": "金卡",
+        "totalConsumption": 5600.00,
+        "stayCount": 5,
+        "lastStayDate": "2023-10-25",
+        "source": "OTA",
+        "tags": ["商务", "无烟"],
+        "createTime": "2022-05-01T10:00:00Z"
+      },
+      {
+        "id": 502,
+        "name": "李四",
+        "gender": "女",
+        "idCard": "310101199202022345",
+        "phone": "13900139000",
+        "email": "lisi@example.com",
+        "level": "银卡",
+        "totalConsumption": 2400.00,
+        "stayCount": 3,
+        "lastStayDate": "2023-09-15",
+        "source": "直客",
+        "tags": ["家庭"],
+        "createTime": "2022-08-15T14:00:00Z"
+      },
+      {
+        "id": 503,
+        "name": "王五",
+        "gender": "男",
+        "idCard": "440101198505055678",
+        "phone": "13700137000",
+        "email": "wangwu@example.com",
+        "level": "钻石卡",
+        "totalConsumption": 15800.00,
+        "stayCount": 12,
+        "lastStayDate": "2023-10-26",
+        "source": "中介",
+        "tags": ["VIP", "高消费"],
+        "createTime": "2021-03-10T09:00:00Z"
+      },
+      {
+        "id": 504,
+        "name": "赵六",
+        "gender": "女",
+        "idCard": "510101199508088901",
+        "phone": "13600136000",
+        "email": "zhaoliu@example.com",
+        "level": "普通会员",
+        "totalConsumption": 0.00,
+        "stayCount": 0,
+        "lastStayDate": null,
+        "source": "OTA",
+        "tags": ["新客"],
+        "createTime": "2023-10-20T11:00:00Z"
+      },
+      {
+        "id": 505,
+        "name": "钱七",
+        "gender": "男",
+        "idCard": "320101198811113456",
+        "phone": "13500135000",
+        "email": "qianqi@example.com",
+        "level": "金卡",
+        "totalConsumption": 4500.00,
+        "stayCount": 8,
+        "lastStayDate": "2023-10-01",
+        "source": "协议单位",
+        "tags": ["长租"],
+        "createTime": "2022-11-05T16:00:00Z"
+      }
+    ]
+  }
+}

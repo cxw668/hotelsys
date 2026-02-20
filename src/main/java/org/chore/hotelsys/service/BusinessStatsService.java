@@ -16,16 +16,29 @@ public class BusinessStatsService extends ServiceImpl<BusinessStatsMapper, Busin
 
     public BusinessStats getByDate(LocalDate date) {
         return this.getOne(new LambdaQueryWrapper<BusinessStats>()
-                .eq(BusinessStats::getStatDate, date));
+                .eq(BusinessStats::getDate, date));
     }
 
     public boolean saveOrUpdateByDate(BusinessStats stats) {
-        BusinessStats existing = getByDate(stats.getStatDate());
+        BusinessStats existing = getByDate(stats.getDate());
         if (existing != null) {
             stats.setId(existing.getId());
             return this.updateById(stats);
         } else {
             return this.save(stats);
         }
+    }
+
+    public java.util.List<BusinessStats> listByDate(LocalDate date) {
+        return this.list(new LambdaQueryWrapper<BusinessStats>()
+                .eq(BusinessStats::getDate, date));
+    }
+
+    public java.util.List<BusinessStats> listRecentDays(int days) {
+        LocalDate end = LocalDate.now();
+        LocalDate start = end.minusDays(days - 1);
+        return this.list(new LambdaQueryWrapper<BusinessStats>()
+                .ge(BusinessStats::getDate, start)
+                .le(BusinessStats::getDate, end));
     }
 }

@@ -1,0 +1,107 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 30,
+    "items": [
+      {
+        "date": "2023-10-20",
+        "totalRevenue": 15800.00,
+        "roomRevenue": 12000.00,
+        "foodRevenue": 3000.00,
+        "otherRevenue": 800.00,
+        "occupancyRate": 0.85,
+        "revPAR": 350.00,
+        "adr": 411.76,
+        "checkIns": 25,
+        "checkOuts": 20,
+        "cancellations": 2,
+        "guestCount": 45
+      },
+      {
+        "date": "2023-10-21",
+        "totalRevenue": 16500.00,
+        "roomRevenue": 12500.00,
+        "foodRevenue": 3200.00,
+        "otherRevenue": 800.00,
+        "occupancyRate": 0.88,
+        "revPAR": 365.00,
+        "adr": 414.77,
+        "checkIns": 28,
+        "checkOuts": 22,
+        "cancellations": 1,
+        "guestCount": 50
+      },
+      {
+        "date": "2023-10-22",
+        "totalRevenue": 14200.00,
+        "roomRevenue": 11000.00,
+        "foodRevenue": 2800.00,
+        "otherRevenue": 400.00,
+        "occupancyRate": 0.75,
+        "revPAR": 315.00,
+        "adr": 420.00,
+        "checkIns": 15,
+        "checkOuts": 25,
+        "cancellations": 0,
+        "guestCount": 35
+      },
+      {
+        "date": "2023-10-23",
+        "totalRevenue": 13500.00,
+        "roomRevenue": 10500.00,
+        "foodRevenue": 2500.00,
+        "otherRevenue": 500.00,
+        "occupancyRate": 0.70,
+        "revPAR": 300.00,
+        "adr": 428.57,
+        "checkIns": 12,
+        "checkOuts": 15,
+        "cancellations": 3,
+        "guestCount": 30
+      },
+      {
+        "date": "2023-10-24",
+        "totalRevenue": 13800.00,
+        "roomRevenue": 10800.00,
+        "foodRevenue": 2600.00,
+        "otherRevenue": 400.00,
+        "occupancyRate": 0.72,
+        "revPAR": 306.00,
+        "adr": 425.00,
+        "checkIns": 14,
+        "checkOuts": 10,
+        "cancellations": 1,
+        "guestCount": 32
+      },
+      {
+        "date": "2023-10-25",
+        "totalRevenue": 14500.00,
+        "roomRevenue": 11200.00,
+        "foodRevenue": 2800.00,
+        "otherRevenue": 500.00,
+        "occupancyRate": 0.76,
+        "revPAR": 322.00,
+        "adr": 423.68,
+        "checkIns": 18,
+        "checkOuts": 12,
+        "cancellations": 0,
+        "guestCount": 38
+      },
+      {
+        "date": "2023-10-26",
+        "totalRevenue": 17000.00,
+        "roomRevenue": 13000.00,
+        "foodRevenue": 3500.00,
+        "otherRevenue": 500.00,
+        "occupancyRate": 0.90,
+        "revPAR": 377.00,
+        "adr": 418.88,
+        "checkIns": 30,
+        "checkOuts": 18,
+        "cancellations": 2,
+        "guestCount": 55
+      }
+    ]
+  }
+}

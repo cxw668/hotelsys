@@ -1,0 +1,72 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 45,
+    "items": [
+      {
+        "id": "ORD20231025001",
+        "reservationId": 1001,
+        "customerId": 501,
+        "customerName": "张三",
+        "roomNum": "101",
+        "checkInTime": "2023-10-25T14:00:00Z",
+        "checkOutTime": null,
+        "status": "进行中",
+        "paymentMethod": "微信支付",
+        "totalAmount": 560.00,
+        "deposit": 200.00,
+        "extraCharges": [],
+        "createTime": "2023-10-25T14:00:00Z"
+      },
+      {
+        "id": "ORD20231026002",
+        "reservationId": 1003,
+        "customerId": 503,
+        "customerName": "王五",
+        "roomNum": "201",
+        "checkInTime": "2023-10-26T12:00:00Z",
+        "checkOutTime": null,
+        "status": "进行中",
+        "paymentMethod": "信用卡",
+        "totalAmount": 1160.00,
+        "deposit": 500.00,
+        "extraCharges": [
+          { "item": "MiniBar", "amount": 50.00 },
+          { "item": "Laundry", "amount": 30.00 }
+        ],
+        "createTime": "2023-10-26T12:00:00Z"
+      },
+      {
+        "id": "ORD20231024003",
+        "reservationId": 998,
+        "customerId": 502,
+        "customerName": "李四",
+        "roomNum": "102",
+        "checkInTime": "2023-10-24T15:00:00Z",
+        "checkOutTime": "2023-10-26T11:00:00Z",
+        "status": "已完成",
+        "paymentMethod": "支付宝",
+        "totalAmount": 760.00,
+        "deposit": 0.00,
+        "extraCharges": [],
+        "createTime": "2023-10-24T15:00:00Z"
+      },
+      {
+        "id": "ORD20231020004",
+        "reservationId": 990,
+        "customerId": 505,
+        "customerName": "钱七",
+        "roomNum": "301",
+        "checkInTime": "2023-10-20T14:00:00Z",
+        "checkOutTime": "2023-10-21T12:00:00Z",
+        "status": "已完成",
+        "paymentMethod": "现金",
+        "totalAmount": 260.00,
+        "deposit": 0.00,
+        "extraCharges": [],
+        "createTime": "2023-10-20T14:00:00Z"
+      }
+    ]
+  }
+}

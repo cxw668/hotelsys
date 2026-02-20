@@ -9,9 +9,6 @@ import java.sql.Statement;
 
 public final class DatabaseConnectionVerifier {
 
-    private DatabaseConnectionVerifier() {
-    }
-
     public static VerificationResult verify(String url, String username, String password) {
         if (url == null || url.isBlank()) {
             return new VerificationResult(false, "spring.datasource.url 未配置，无法验证数据库连接", null, null);

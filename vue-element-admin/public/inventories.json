@@ -1,0 +1,88 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 20,
+    "items": [
+      {
+        "id": 1,
+        "name": "洗发水",
+        "category": "洗漱用品",
+        "spec": "50ml",
+        "unit": "瓶",
+        "currentStock": 500,
+        "safetyStock": 100,
+        "price": 5.00,
+        "supplier": "日化供应商A",
+        "lastCheckTime": "2023-10-20",
+        "location": "仓库A-01"
+      },
+      {
+        "id": 2,
+        "name": "沐浴露",
+        "category": "洗漱用品",
+        "spec": "50ml",
+        "unit": "瓶",
+        "currentStock": 480,
+        "safetyStock": 100,
+        "price": 5.00,
+        "supplier": "日化供应商A",
+        "lastCheckTime": "2023-10-20",
+        "location": "仓库A-02"
+      },
+      {
+        "id": 3,
+        "name": "牙刷套装",
+        "category": "一次性用品",
+        "spec": "标准",
+        "unit": "套",
+        "currentStock": 1000,
+        "safetyStock": 200,
+        "price": 2.50,
+        "supplier": "日化供应商B",
+        "lastCheckTime": "2023-10-20",
+        "location": "仓库A-03"
+      },
+      {
+        "id": 4,
+        "name": "矿泉水",
+        "category": "食品饮料",
+        "spec": "350ml",
+        "unit": "瓶",
+        "currentStock": 200,
+        "safetyStock": 500,
+        "price": 1.20,
+        "supplier": "饮料供应商C",
+        "lastCheckTime": "2023-10-25",
+        "location": "仓库B-01",
+        "remark": "库存不足"
+      },
+      {
+        "id": 5,
+        "name": "浴巾",
+        "category": "布草",
+        "spec": "大号",
+        "unit": "条",
+        "currentStock": 300,
+        "safetyStock": 50,
+        "price": 30.00,
+        "supplier": "纺织供应商D",
+        "lastCheckTime": "2023-10-01",
+        "location": "布草间"
+      },
+      {
+        "id": 6,
+        "name": "卷纸",
+        "category": "易耗品",
+        "spec": "180g",
+        "unit": "卷",
+        "currentStock": 800,
+        "safetyStock": 150,
+        "price": 3.00,
+        "supplier": "日化供应商A",
+        "lastCheckTime": "2023-10-20",
+        "location": "仓库A-04"
+      }
+    ]
+  }
+}

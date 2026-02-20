@@ -1,0 +1,57 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 8,
+    "items": [
+      {
+        "id": "CHK20231026001",
+        "orderId": "ORD20231024003",
+        "customerName": "李四",
+        "roomNum": "102",
+        "checkoutTime": "2023-10-26T11:00:00Z",
+        "totalRoomCharge": 760.00,
+        "otherCharges": 0.00,
+        "compensation": 0.00,
+        "discount": 0.00,
+        "finalAmount": 760.00,
+        "paymentMethod": "支付宝",
+        "operator": "Jane Doe",
+        "status": "completed",
+        "remarks": "正常退房"
+      },
+      {
+        "id": "CHK20231021002",
+        "orderId": "ORD20231020004",
+        "customerName": "钱七",
+        "roomNum": "301",
+        "checkoutTime": "2023-10-21T12:00:00Z",
+        "totalRoomCharge": 260.00,
+        "otherCharges": 20.00,
+        "compensation": 0.00,
+        "discount": 0.00,
+        "finalAmount": 280.00,
+        "paymentMethod": "现金",
+        "operator": "Jane Doe",
+        "status": "completed",
+        "remarks": "消费饮料一瓶"
+      },
+      {
+        "id": "CHK20231025003",
+        "orderId": "ORD20231023005",
+        "customerName": "孙八",
+        "roomNum": "202",
+        "checkoutTime": "2023-10-25T13:00:00Z",
+        "totalRoomCharge": 1760.00,
+        "otherCharges": 500.00,
+        "compensation": 100.00,
+        "discount": 50.00,
+        "finalAmount": 2310.00,
+        "paymentMethod": "信用卡",
+        "operator": "Bob Smith",
+        "status": "completed",
+        "remarks": "损坏杯子赔偿100元"
+      }
+    ]
+  }
+}

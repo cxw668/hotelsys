@@ -1,0 +1,69 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 5,
+    "items": [
+      {
+        "id": 1,
+        "customerId": 501,
+        "roomNum": "101",
+        "type": "设施",
+        "content": "空调制冷效果差",
+        "reportTime": "2023-10-25T20:00:00Z",
+        "status": "已处理",
+        "result": "加氟维修完成",
+        "handler": "工程部-老王",
+        "score": 5
+      },
+      {
+        "id": 2,
+        "customerId": 503,
+        "roomNum": "201",
+        "type": "噪音",
+        "content": "隔壁房间太吵",
+        "reportTime": "2023-10-26T23:00:00Z",
+        "status": "处理中",
+        "result": "已劝阻",
+        "handler": "安保部-Charlie",
+        "score": null
+      },
+      {
+        "id": 3,
+        "customerId": 502,
+        "roomNum": "102",
+        "type": "服务",
+        "content": "送餐速度太慢",
+        "reportTime": "2023-10-24T18:30:00Z",
+        "status": "已处理",
+        "result": "致歉并赠送果盘",
+        "handler": "前厅部-Jane",
+        "score": 4
+      },
+      {
+        "id": 4,
+        "customerId": 504,
+        "roomNum": "301",
+        "type": "卫生",
+        "content": "地毯有污渍",
+        "reportTime": "2023-10-22T14:00:00Z",
+        "status": "已处理",
+        "result": "立即重新清洁",
+        "handler": "客房部-Bob",
+        "score": 5
+      },
+      {
+        "id": 5,
+        "customerId": null,
+        "roomNum": "202",
+        "type": "设施",
+        "content": "台灯灯泡损坏",
+        "reportTime": "2023-10-26T09:00:00Z",
+        "status": "待处理",
+        "result": null,
+        "handler": null,
+        "score": null
+      }
+    ]
+  }
+}

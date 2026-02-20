@@ -1,0 +1,45 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 4,
+    "items": [
+      {
+        "id": 1,
+        "levelName": "普通会员",
+        "discountRate": 1.00,
+        "pointsMultiplier": 1.0,
+        "upgradeThreshold": 0,
+        "benefits": ["免费WiFi", "会员价预订"],
+        "color": "#909399"
+      },
+      {
+        "id": 2,
+        "levelName": "银卡会员",
+        "discountRate": 0.95,
+        "pointsMultiplier": 1.2,
+        "upgradeThreshold": 2000,
+        "benefits": ["免费WiFi", "95折预订", "延迟退房至13:00"],
+        "color": "#C0C4CC"
+      },
+      {
+        "id": 3,
+        "levelName": "金卡会员",
+        "discountRate": 0.88,
+        "pointsMultiplier": 1.5,
+        "upgradeThreshold": 10000,
+        "benefits": ["免费WiFi", "88折预订", "延迟退房至14:00", "免费早餐", "房型升级"],
+        "color": "#E6A23C"
+      },
+      {
+        "id": 4,
+        "levelName": "钻石卡会员",
+        "discountRate": 0.80,
+        "pointsMultiplier": 2.0,
+        "upgradeThreshold": 50000,
+        "benefits": ["免费WiFi", "8折预订", "延迟退房至16:00", "双人早餐", "行政酒廊", "专车接送"],
+        "color": "#409EFF"
+      }
+    ]
+  }
+}

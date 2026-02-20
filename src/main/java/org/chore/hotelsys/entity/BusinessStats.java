@@ -18,17 +18,29 @@ public class BusinessStats {
     /**
      * 统计日期
      */
-    private LocalDate statDate;
+    private LocalDate date;
 
-    /**
-     * 当日入住房间数
-     */
-    private Integer checkInNum;
+    private BigDecimal totalRevenue;
 
-    /**
-     * 当日营收
-     */
-    private BigDecimal revenue;
+    private BigDecimal roomRevenue;
+
+    private BigDecimal foodRevenue;
+
+    private BigDecimal otherRevenue;
+
+    private BigDecimal occupancyRate;
+
+    private BigDecimal revPAR;
+
+    private BigDecimal adr;
+
+    private Integer checkIns;
+
+    private Integer checkOuts;
+
+    private Integer cancellations;
+
+    private Integer guestCount;
 
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;

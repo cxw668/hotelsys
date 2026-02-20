@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "total": 12,
+    "items": [
+      {
+        "id": 801,
+        "name": "Admin User",
+        "employeeId": "EMP001",
+        "position": "系统管理员",
+        "department": "IT部",
+        "hireDate": "2020-01-01",
+        "status": "在职",
+        "phone": "13800000001",
+        "salaryLevel": "L5",
+        "performance": "A",
+        "roles": ["admin"]
+      },
+      {
+        "id": 802,
+        "name": "Jane Doe",
+        "employeeId": "EMP002",
+        "position": "前台经理",
+        "department": "前厅部",
+        "hireDate": "2021-03-15",
+        "status": "在职",
+        "phone": "13800000002",
+        "salaryLevel": "L3",
+        "performance": "A",
+        "roles": ["editor"]
+      },
+      {
+        "id": 803,
+        "name": "Bob Smith",
+        "employeeId": "EMP003",
+        "position": "客房主管",
+        "department": "客房部",
+        "hireDate": "2021-05-20",
+        "status": "在职",
+        "phone": "13800000003",
+        "salaryLevel": "L3",
+        "performance": "B+",
+        "roles": ["editor"]
+      },
+      {
+        "id": 804,
+        "name": "Alice Johnson",
+        "employeeId": "EMP004",
+        "position": "销售经理",
+        "department": "销售部",
+        "hireDate": "2022-02-10",
+        "status": "在职",
+        "phone": "13800000004",
+        "salaryLevel": "L4",
+        "performance": "S",
+        "roles": ["editor"]
+      },
+      {
+        "id": 805,
+        "name": "Charlie Brown",
+        "employeeId": "EMP005",
+        "position": "保安队长",
+        "department": "安保部",
+        "hireDate": "2020-11-11",
+        "status": "在职",
+        "phone": "13800000005",
+        "salaryLevel": "L2",
+        "performance": "B",
+        "roles": ["editor"]
+      }
+    ]
+  }
+}
